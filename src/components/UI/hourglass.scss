@@ -1,0 +1,24 @@
+
+.hourglass{
+    display:block;
+    background:transparent;
+    width:15px;
+    height:20px;
+    animation: hourglass 1s linear infinite;
+
+    path {
+    fill:rgb(77, 76, 76);
+    }
+}
+
+@keyframes hourglass{
+    0%{
+        transform:rotate(0deg);
+    }
+    80%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(180deg);
+    }
+}
